@@ -20,6 +20,7 @@ _%>
 ---
 place: "<% meta.place %>"
 datePlayed: "<% meta.datePlayed %>"
+dateReviewed: "<% tp.date.now() %>"
 app: "<% meta.app %>"
 size: "<% meta.size %>"
 annotator: "<% meta.annotator %>"
@@ -35,6 +36,8 @@ rules: "<% meta.rules %>"
 handicap: "<% meta.handicap %>"
 komi: "<% meta.komi %>"
 sgf: "![[<% filepath %>]]"
+tags:
+  - go
 ---
 
 ## Overall thoughts
